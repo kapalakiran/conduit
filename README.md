@@ -9,7 +9,7 @@ Test Cases are added to verify selection of popular tags, verify Selected Tag in
 Web Application testing done using : Selenium Webdriver
 Programming Language used : Java
 Design Pattern : Page Object Model with Page Factory
-Build Management Tool : Mavane
+Build Management Tool : Maven
 Framework, Annotations and Execution : TestNG
 
 # source packages
@@ -41,7 +41,7 @@ Framework, Annotations and Execution : TestNG
 
     a. prod - prod.properties
           
-          Which contains url,other creds if required
+          which contains url,other creds if required
           
 Other important files in the project are as follows- 
 
