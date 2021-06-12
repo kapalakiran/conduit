@@ -56,5 +56,6 @@ Other important files in the project are as follows-
 # ExtentReports
         
         It is the Open source reporting library used to depict the results of the test execution
+        Path for reports - conduit/ExtentReports/index.html
  
  

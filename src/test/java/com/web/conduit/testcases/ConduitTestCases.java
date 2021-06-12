@@ -7,7 +7,7 @@ import com.web.conduit.pages.TagsDetailPage;
 
 public class ConduitTestCases extends BaseFunctions{
 
-	@Test(enabled=true)
+	@Test
 	public void verifySelectionOfPopularTags() {
 		logInfo("To verify selected popular tag in active tab ");
 		if(new TagsDetailPage(driver).verifySelectedTagFunctionalityInHomePage("HITLER"))
@@ -16,7 +16,7 @@ public class ConduitTestCases extends BaseFunctions{
 			logFailed("Corresponding Selected tag values are not populated while selecting a popular tag ");
 	}
 	
-	@Test(enabled=true)
+	@Test
 	public void verifySelectedTagInDetailedAuthorViewAndVerifyItsOccurence() {
 		logInfo("To verify selected popular tag in detailed author view screen ");
 		if(new TagsDetailPage(driver).verifySelectedTagInDetailedAuthorView("HITLER"))
