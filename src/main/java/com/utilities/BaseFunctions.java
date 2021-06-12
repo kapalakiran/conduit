@@ -230,8 +230,8 @@ public class BaseFunctions extends TestBase{
 	 */
 	public static String getScreenshot(String screenshotName) throws Exception {		
 		String dateName = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
-		TakesScreenshot ts = (TakesScreenshot) driver;
-		File source = ts.getScreenshotAs(OutputType.FILE);
+		TakesScreenshot takeScreenshot = (TakesScreenshot) driver;
+		File source = takeScreenshot.getScreenshotAs(OutputType.FILE);
 		String destination = System.getProperty("user.dir") + "/FailedTestsScreenshots/"+screenshotName+dateName+".png";
 		File finalDestination = new File(destination);
 		FileUtils.copyFile(source, finalDestination);
