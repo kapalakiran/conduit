@@ -134,7 +134,7 @@ public class TagsDetailPage extends BaseFunctions{
 			String activeLinkText = selectTagAndGetActiveLinkText(sampleTag);
 			String updatedLinkActiveLinkText = selectTagAndGetActiveLinkText(sampleTag);
 			if(activeLinkText.equalsIgnoreCase(sampleTag) && updatedLinkActiveLinkText.equalsIgnoreCase(sampleTag)) {
-				logPassed("Existing active tag  is retained upon the selecting the same from filters , previous selected tag - "+activeLinkText+" & current active tag - "+updatedLinkActiveLinkText);
+				logPassed("Existing active tag is retained upon the selecting the same from filters , previous selected tag - "+activeLinkText+" & current active tag - "+updatedLinkActiveLinkText);
 				status = true;
 			}else
 				logFailed("Failed to retain the existing active tage upon selecting it from the filters , previous selected tag - "+activeLinkText+" & current active tag - "+updatedLinkActiveLinkText);			
@@ -162,7 +162,7 @@ public class TagsDetailPage extends BaseFunctions{
 				logPassed("Before selecting the author - "+prevCount+" & after selecting the author  - "+ currentCount);
 				status = true;
 			} else 
-				logFailed("Before selecting the author - "+prevCount);
+				logFailed("Before selecting the author - "+prevCount+" & after selecting the author  - "+ currentCount);
 		}catch (Exception e) {
 			logException(e);
 		}
