@@ -40,9 +40,8 @@ public class TagsDetailPage extends BaseFunctions{
 			selectValueFromListOfWebElements(popularTags, sampleTag);
 			waitUntilElementFound(getWebElement(sampleTag).get(0));
 			int actualSizeOfReqTags = getWebElement(sampleTag).size();
-			if(actualSizeOfReqTags==10) {
+			if(status = (actualSizeOfReqTags==10)) {
 				logPassed("Selected Tag values are getting displayed in active tab"+" Expected count - 20 "+"Actual Count "+ - actualSizeOfReqTags+"");
-				status = true;
 			}else
 				logFailed("Selected tag values are not getting displayed in active tab"+" Expected count - 20 "+"Actual Count "+ - actualSizeOfReqTags+"");
 
