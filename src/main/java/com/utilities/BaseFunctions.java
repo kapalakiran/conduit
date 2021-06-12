@@ -88,16 +88,16 @@ public class BaseFunctions extends TestBase{
 	public Boolean switchToIframe(WebElement iframe) throws InterruptedException {
 		try{
 			driver.switchTo().frame(iframe);
-			logPassed("Able to switch iframe");
+			logInfo("Switched to Iframe");
 			return true;
 		}catch (Exception e) {
 			logFailed(e.getMessage().toString());
 			return false;
 		}
 	}
-	
+
 	public void switchToParentFrame() {
-		 driver.switchTo().parentFrame();
+		driver.switchTo().parentFrame();
 	}
 
 	public Boolean clickUsingActions(WebElement element,String Label) {
@@ -112,11 +112,7 @@ public class BaseFunctions extends TestBase{
 	}
 
 	public void logPassed(String passedLog) {
-		try {
-			test.pass(passedLog);
-		}catch (Exception e) {
-			System.out.println(e.getMessage());
-		}
+		test.pass(passedLog);
 	}
 
 	public void logInfo(String info) {
@@ -127,7 +123,7 @@ public class BaseFunctions extends TestBase{
 
 		test.fail(failedLog);
 	}
-	
+
 
 	public void logException(Exception e) {
 		logFailed(e.getMessage());
@@ -256,7 +252,7 @@ public class BaseFunctions extends TestBase{
 			return false;
 		}
 	}
-	
+
 	public void navigateBack() throws InterruptedException {
 		Thread.sleep(2000);
 		driver.navigate().back();
