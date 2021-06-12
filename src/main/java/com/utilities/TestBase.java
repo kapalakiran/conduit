@@ -62,6 +62,14 @@ public class TestBase {
 		return getProperty(propertiesFile,key);
 	}
 	
+	/**
+	 * @author kirankumar
+	 * @description - to fetch values from property file 
+	 * @param propetyfilepath
+	 * @param key
+	 * @return
+	 * @throws IOException
+	 */
 	public String getProperty(String propetyfilepath,String key) throws IOException {
 		FileInputStream fis = null;
 		Properties prop = null;
