@@ -257,7 +257,8 @@ public class BaseFunctions extends TestBase{
 		}
 	}
 	
-	public void navigateBack() {
+	public void navigateBack() throws InterruptedException {
+		Thread.sleep(2000);
 		driver.navigate().back();
 	}
 }

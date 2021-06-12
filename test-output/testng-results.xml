@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="DemoRealWorldSuite" duration-ms="38424" started-at="2021-06-11T23:35:08Z" finished-at="2021-06-11T23:35:46Z">
+  <suite name="DemoRealWorldSuite" duration-ms="33423" started-at="2021-06-12T05:43:41Z" finished-at="2021-06-12T05:44:14Z">
     <groups>
     </groups>
-    <test name="Login" duration-ms="38424" started-at="2021-06-11T23:35:08Z" finished-at="2021-06-11T23:35:46Z">
+    <test name="Filtering By tags " duration-ms="33423" started-at="2021-06-12T05:43:41Z" finished-at="2021-06-12T05:44:14Z">
       <class name="com.web.conduit.testcases.ConduitTestCases">
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.web.conduit.testcases.ConduitTestCases@6babf3bf]" name="setUp" is-config="true" duration-ms="3352" started-at="2021-06-11T23:35:08Z" finished-at="2021-06-11T23:35:11Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.web.conduit.testcases.ConduitTestCases@6babf3bf]" name="setUp" is-config="true" duration-ms="3436" started-at="2021-06-12T05:43:41Z" finished-at="2021-06-12T05:43:44Z">
           <params>
             <param index="0">
               <value>
@@ -16,22 +16,29 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void com.web.conduit.testcases.ConduitTestCases.verifyPopularTagCountBeforeAndAfterSelectingtheAuthor()]]>
+                <![CDATA[public void com.web.conduit.testcases.ConduitTestCases.verifyPopularTagCountBeforeAndAfterSelectingtheAuthor(java.lang.String)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyPopularTagCountBeforeAndAfterSelectingtheAuthor()[pri:0, instance:com.web.conduit.testcases.ConduitTestCases@6babf3bf]" name="verifyPopularTagCountBeforeAndAfterSelectingtheAuthor" duration-ms="11598" started-at="2021-06-11T23:35:11Z" finished-at="2021-06-11T23:35:23Z">
+        <test-method status="PASS" signature="verifyPopularTagCountBeforeAndAfterSelectingtheAuthor(java.lang.String)[pri:0, instance:com.web.conduit.testcases.ConduitTestCases@6babf3bf]" name="verifyPopularTagCountBeforeAndAfterSelectingtheAuthor" duration-ms="6787" started-at="2021-06-12T05:43:44Z" finished-at="2021-06-12T05:43:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HITLER]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPopularTagCountBeforeAndAfterSelectingtheAuthor -->
-        <test-method status="PASS" signature="closeTheBrowser()[pri:0, instance:com.web.conduit.testcases.ConduitTestCases@6babf3bf]" name="closeTheBrowser" is-config="true" duration-ms="318" started-at="2021-06-11T23:35:23Z" finished-at="2021-06-11T23:35:23Z">
+        <test-method status="PASS" signature="closeTheBrowser()[pri:0, instance:com.web.conduit.testcases.ConduitTestCases@6babf3bf]" name="closeTheBrowser" is-config="true" duration-ms="357" started-at="2021-06-12T05:43:51Z" finished-at="2021-06-12T05:43:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeTheBrowser -->
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.web.conduit.testcases.ConduitTestCases@6babf3bf]" name="setUp" is-config="true" duration-ms="2863" started-at="2021-06-11T23:35:23Z" finished-at="2021-06-11T23:35:26Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.web.conduit.testcases.ConduitTestCases@6babf3bf]" name="setUp" is-config="true" duration-ms="3126" started-at="2021-06-12T05:43:51Z" finished-at="2021-06-12T05:43:54Z">
           <params>
             <param index="0">
               <value>
@@ -40,22 +47,29 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void com.web.conduit.testcases.ConduitTestCases.verifySelectedTagInDetailedAuthorViewAndVerifyItsOccurence()]]>
+                <![CDATA[public void com.web.conduit.testcases.ConduitTestCases.verifySelectedTagInDetailedAuthorViewAndVerifyItsOccurence(java.lang.String)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifySelectedTagInDetailedAuthorViewAndVerifyItsOccurence()[pri:0, instance:com.web.conduit.testcases.ConduitTestCases@6babf3bf]" name="verifySelectedTagInDetailedAuthorViewAndVerifyItsOccurence" duration-ms="4162" started-at="2021-06-11T23:35:26Z" finished-at="2021-06-11T23:35:30Z">
+        <test-method status="PASS" signature="verifySelectedTagInDetailedAuthorViewAndVerifyItsOccurence(java.lang.String)[pri:0, instance:com.web.conduit.testcases.ConduitTestCases@6babf3bf]" name="verifySelectedTagInDetailedAuthorViewAndVerifyItsOccurence" duration-ms="4332" started-at="2021-06-12T05:43:54Z" finished-at="2021-06-12T05:43:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HITLER]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySelectedTagInDetailedAuthorViewAndVerifyItsOccurence -->
-        <test-method status="PASS" signature="closeTheBrowser()[pri:0, instance:com.web.conduit.testcases.ConduitTestCases@6babf3bf]" name="closeTheBrowser" is-config="true" duration-ms="180" started-at="2021-06-11T23:35:30Z" finished-at="2021-06-11T23:35:30Z">
+        <test-method status="PASS" signature="closeTheBrowser()[pri:0, instance:com.web.conduit.testcases.ConduitTestCases@6babf3bf]" name="closeTheBrowser" is-config="true" duration-ms="120" started-at="2021-06-12T05:43:59Z" finished-at="2021-06-12T05:43:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeTheBrowser -->
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.web.conduit.testcases.ConduitTestCases@6babf3bf]" name="setUp" is-config="true" duration-ms="2563" started-at="2021-06-11T23:35:30Z" finished-at="2021-06-11T23:35:33Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.web.conduit.testcases.ConduitTestCases@6babf3bf]" name="setUp" is-config="true" duration-ms="2948" started-at="2021-06-12T05:43:59Z" finished-at="2021-06-12T05:44:02Z">
           <params>
             <param index="0">
               <value>
@@ -64,22 +78,29 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void com.web.conduit.testcases.ConduitTestCases.verifySelectingATagWhichIsAlreadyActive()]]>
+                <![CDATA[public void com.web.conduit.testcases.ConduitTestCases.verifySelectingATagWhichIsAlreadyActive(java.lang.String)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifySelectingATagWhichIsAlreadyActive()[pri:0, instance:com.web.conduit.testcases.ConduitTestCases@6babf3bf]" name="verifySelectingATagWhichIsAlreadyActive" duration-ms="1811" started-at="2021-06-11T23:35:33Z" finished-at="2021-06-11T23:35:35Z">
+        <test-method status="PASS" signature="verifySelectingATagWhichIsAlreadyActive(java.lang.String)[pri:0, instance:com.web.conduit.testcases.ConduitTestCases@6babf3bf]" name="verifySelectingATagWhichIsAlreadyActive" duration-ms="1984" started-at="2021-06-12T05:44:02Z" finished-at="2021-06-12T05:44:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HITLER]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySelectingATagWhichIsAlreadyActive -->
-        <test-method status="PASS" signature="closeTheBrowser()[pri:0, instance:com.web.conduit.testcases.ConduitTestCases@6babf3bf]" name="closeTheBrowser" is-config="true" duration-ms="116" started-at="2021-06-11T23:35:35Z" finished-at="2021-06-11T23:35:35Z">
+        <test-method status="PASS" signature="closeTheBrowser()[pri:0, instance:com.web.conduit.testcases.ConduitTestCases@6babf3bf]" name="closeTheBrowser" is-config="true" duration-ms="129" started-at="2021-06-12T05:44:04Z" finished-at="2021-06-12T05:44:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeTheBrowser -->
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.web.conduit.testcases.ConduitTestCases@6babf3bf]" name="setUp" is-config="true" duration-ms="3230" started-at="2021-06-11T23:35:35Z" finished-at="2021-06-11T23:35:38Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.web.conduit.testcases.ConduitTestCases@6babf3bf]" name="setUp" is-config="true" duration-ms="3033" started-at="2021-06-12T05:44:04Z" finished-at="2021-06-12T05:44:07Z">
           <params>
             <param index="0">
               <value>
@@ -88,22 +109,29 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void com.web.conduit.testcases.ConduitTestCases.verifySelectionOfPopularTags()]]>
+                <![CDATA[public void com.web.conduit.testcases.ConduitTestCases.verifySelectionOfPopularTags(java.lang.String)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifySelectionOfPopularTags()[pri:0, instance:com.web.conduit.testcases.ConduitTestCases@6babf3bf]" name="verifySelectionOfPopularTags" duration-ms="2910" started-at="2021-06-11T23:35:38Z" finished-at="2021-06-11T23:35:41Z">
+        <test-method status="PASS" signature="verifySelectionOfPopularTags(java.lang.String)[pri:0, instance:com.web.conduit.testcases.ConduitTestCases@6babf3bf]" name="verifySelectionOfPopularTags" duration-ms="2500" started-at="2021-06-12T05:44:07Z" finished-at="2021-06-12T05:44:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HITLER]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySelectionOfPopularTags -->
-        <test-method status="PASS" signature="closeTheBrowser()[pri:0, instance:com.web.conduit.testcases.ConduitTestCases@6babf3bf]" name="closeTheBrowser" is-config="true" duration-ms="183" started-at="2021-06-11T23:35:41Z" finished-at="2021-06-11T23:35:41Z">
+        <test-method status="PASS" signature="closeTheBrowser()[pri:0, instance:com.web.conduit.testcases.ConduitTestCases@6babf3bf]" name="closeTheBrowser" is-config="true" duration-ms="122" started-at="2021-06-12T05:44:09Z" finished-at="2021-06-12T05:44:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeTheBrowser -->
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.web.conduit.testcases.ConduitTestCases@6babf3bf]" name="setUp" is-config="true" duration-ms="2891" started-at="2021-06-11T23:35:41Z" finished-at="2021-06-11T23:35:44Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.web.conduit.testcases.ConduitTestCases@6babf3bf]" name="setUp" is-config="true" duration-ms="2548" started-at="2021-06-12T05:44:10Z" finished-at="2021-06-12T05:44:12Z">
           <params>
             <param index="0">
               <value>
@@ -112,22 +140,34 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void com.web.conduit.testcases.ConduitTestCases.verifyUpdateActiveTagFunctionality()]]>
+                <![CDATA[public void com.web.conduit.testcases.ConduitTestCases.verifyUpdateActiveTagFunctionality(java.lang.String,java.lang.String)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyUpdateActiveTagFunctionality()[pri:0, instance:com.web.conduit.testcases.ConduitTestCases@6babf3bf]" name="verifyUpdateActiveTagFunctionality" duration-ms="2100" started-at="2021-06-11T23:35:44Z" finished-at="2021-06-11T23:35:46Z">
+        <test-method status="PASS" signature="verifyUpdateActiveTagFunctionality(java.lang.String, java.lang.String)[pri:0, instance:com.web.conduit.testcases.ConduitTestCases@6babf3bf]" name="verifyUpdateActiveTagFunctionality" duration-ms="1861" started-at="2021-06-12T05:44:12Z" finished-at="2021-06-12T05:44:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HITLER]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SIDA]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUpdateActiveTagFunctionality -->
-        <test-method status="PASS" signature="closeTheBrowser()[pri:0, instance:com.web.conduit.testcases.ConduitTestCases@6babf3bf]" name="closeTheBrowser" is-config="true" duration-ms="129" started-at="2021-06-11T23:35:46Z" finished-at="2021-06-11T23:35:46Z">
+        <test-method status="PASS" signature="closeTheBrowser()[pri:0, instance:com.web.conduit.testcases.ConduitTestCases@6babf3bf]" name="closeTheBrowser" is-config="true" duration-ms="122" started-at="2021-06-12T05:44:14Z" finished-at="2021-06-12T05:44:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeTheBrowser -->
       </class> <!-- com.web.conduit.testcases.ConduitTestCases -->
-    </test> <!-- Login -->
+    </test> <!-- Filtering By tags  -->
   </suite> <!-- DemoRealWorldSuite -->
 </testng-results>

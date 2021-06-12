@@ -149,11 +149,12 @@ public class TagsDetailPage extends BaseFunctions{
 	 * @description - to validate popular tags count before & after selecting the count
 	 * @return
 	 */
-	public Boolean verifyPopularTagsCountBeforeAndAfterSelectingAAuthor() {
+	public Boolean verifyPopularTagsCountBeforeAndAfterSelectingAAuthor(String sampleTag) {
 		Boolean status = false;
 		try {
 			waitUntilElementFound(authorLinks.get(0));
 			int prevCount = popularTags.size();	
+			selectTagAndGetActiveLinkText(sampleTag);
 			click(authorLinks.get(0),"Author");
 			navigateBack();
 			waitUntilElementFound(authorLinks.get(0));
