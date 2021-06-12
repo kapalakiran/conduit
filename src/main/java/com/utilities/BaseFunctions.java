@@ -150,28 +150,28 @@ public class BaseFunctions extends TestBase{
 	}
 
 	public Boolean selectValueFromListOfWebElements(List<WebElement> lstOfWebElements,String expectedText) throws Exception {
-		Boolean Status = false;
+		Boolean status = false;
 		for(WebElement webElement : lstOfWebElements) {
 			if(webElement.getText().equalsIgnoreCase(expectedText)) {
-				Status= click(webElement, "Expected Text");
+				status= click(webElement, "Expected Text");
 				break;
 			}
 		}
-		return Status;
+		return status;
 	}
 
 	public boolean scrollToElement(WebElement ele, String desc) {
-		Boolean success = false;
+		Boolean status = false;
 		try {
 			((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", ele);
 			if (desc != null)
 				logInfo("Scrolled to :" + desc);
-			success = true;
+			status = true;
 			Thread.sleep(3000);
 		} catch (Exception e) {
 			logFailed("Unable to scroll"+desc+" "+e.getMessage());
 		}
-		return success;
+		return status;
 	}
 
 	public void scrollDown() {
